@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>mohsina website</title>
+        <h1>HELLO</h1>
+    </head>
+    <body style="background:rgb(246, 247, 248)">
+        <h1 style="color:rebeccapurple" style="font-family:Franklin Gothic Medium">RESUME</h1><!--commandline-->
+        <p style="font-size: 300%" style="text-align: center" style="font-family: Times New Roman">Life, as we know,<a href="htt
+           
+        <hr><p>Today, life is abundant and able to thrive in almost every conceivable environment.
+            <br> So how would one define life? Currently, there is no consensus on the definition of life.</p>
+            <!--list-->
+            <ul>
+                <li>LIFE</li>
+                <li>LIFE</li>
+                <li>LIFE</li>
+                <li>LIFE</li>
+                <li>LIFE</li>
+            </ul>
+            <ol>
+                <li>LIFE </li>
+                <li>LIFE</li>
+                <li>LIFE</li>
+                <li>LIFE</li>
+                <li>LIFE</li>
+            </ol>
+            <table border="1">
+                <head>
+                    <tr>
+                        <th>NAME</th>
+                       <br> <th>ROLLNO</th>
+                       <br> <th>ADDRESS</th>
+                       <br> <th>PHONE NUM</th>
+                    </tr>
+                </head>
+                <body>
+                    <tr>
+                        <br> <td>mohsina</td>
+                        <br><td>21</td>
+                        <td>chennai</td>
+                        <td>12345678</td>
+                    </tr>
+                </body>
+            </table>
+              <form action="next.php" method="POST">
+               <br>
+                <div>
+                    <label>NAME</label>
+                <input type="text" name="name" placeholder="name">
+                </div><br>
+               <br>
+                <div>
+                <label>NUMBER</label>
+                <input type="number" name="number">
+                </div>
+               <br><br>
+                <div>
+                <label>PASSWORD</label>
+                <input type="Password" name="password">
+                </div> 
+                <br> <br>
+                <div>
+                    <label>GENDER</label>
+                    <select name="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+                </div> 
+                <br> <br>
+                <br>
+                <br>
+                <div>
+                    <label>DOB</label>
+                    <input type="date" name="dob">
+                </div>
+                <br>
+                <br>
+                <img src="apple-fruit1" alt="my apple" width="200">  
+              </form>
+               </body>
+    </body>
+
+</html>
